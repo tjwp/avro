@@ -25,8 +25,7 @@ gem 'parallel', '<= 1.19.2'
 # webrick is no longer included with Ruby 3.0+
 gem 'webrick'
 
-# memory_profiler 0.9.13 requires Ruby 2.3.8+
-gem 'memory_profiler', '<= 0.9.12'
+gem 'memory_profiler'
 
 # rubocop 0.82 requires Ruby 2.4+
 gem 'rubocop', '<= 0.81'
