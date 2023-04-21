@@ -19,8 +19,8 @@ module Avro
   class SchemaValidator
     ROOT_IDENTIFIER = '.'
     PATH_SEPARATOR = '.'
-    INT_RANGE = (Schema::INT_MIN_VALUE..Schema::INT_MAX_VALUE).freeze
-    LONG_RANGE = (Schema::LONG_MIN_VALUE..Schema::LONG_MAX_VALUE).freeze
+    INT_RANGE = (Schema::INT_MIN_VALUE..Schema::INT_MAX_VALUE)
+    LONG_RANGE = (Schema::LONG_MIN_VALUE..Schema::LONG_MAX_VALUE)
     COMPLEX_TYPES = [:array, :error, :map, :record, :request].freeze
     BOOLEAN_VALUES = [true, false].freeze
     DEFAULT_VALIDATION_OPTIONS = { recursive: true, encoded: false, fail_on_extra_fields: false }.freeze
