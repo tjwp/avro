@@ -33,7 +33,7 @@ readme = "README.md"
 proc-macro = true
 
 [dependencies]
-darling = { default-features = false, version = "0.20.3" }
+darling = { default-features = false, version = "0.20.5" }
 proc-macro2 = { default-features = false, version = "1.0.71" }
 quote = { default-features = false, version = "1.0.33" }
 serde_json = { workspace = true }
